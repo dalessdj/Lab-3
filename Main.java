@@ -9,18 +9,18 @@ int number;
 System.out.println("Enter a number to count down or up from:");
 number = s.nextInt();
 
-while(number>=0) 
+if (number>=0)
+  while(number>=0)
 {System.out.println(number);
 number--;}
-System.out.println("Blast off!");
 
-while(number<=0)
-{System.out.println(number);
-number++;}
-System.out.println("Blast off!");
-
+else if (number<=0)
+  while(number<=0)
+  {System.out.println(number);
+  number++;}
+  
+System.out.println("Blast off!");  
+  
   }
-
-
 }
 
